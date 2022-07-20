@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRun
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 95.533 sec <<< FAILURE!
+Login Data Driven #2(Login)  Time elapsed: 4.358 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.Steps.page_title_should_be(Steps.java:79)
+	at ?.Page Title should be "Dashboard / nopCommerce administration"(file:///D:/silpa/Selenium%20Workspace/nopCommerce/./Features/logIn.feature:18)
+
